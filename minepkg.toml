@@ -1,3 +1,5 @@
+
+# Preview of the minepkg.toml format! Could break anytime!
 manifestVersion = 0
 
 [package]
@@ -8,9 +10,10 @@ manifestVersion = 0
   platform = "fabric"
   license = "MIT"
 
+# These are global requirements
 [requirements]
   minecraft = "1.15.2"
-  fabric = "*"
+  fabricLoader = "*"
 
 [dependencies]
   fabric = "*"
